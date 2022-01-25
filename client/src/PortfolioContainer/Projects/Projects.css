@@ -1,11 +1,16 @@
 .card {
-  width: 22rem;
+  width: 17rem;
   border-radius: 20px;
   margin: 20px;
 }
 
 .card img {
   border-radius: 20px 20px 0 0;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-bottom: 30px;
 }
 
 .projects {

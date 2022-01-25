@@ -139,29 +139,36 @@ button .load img {
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 940px) {
   .back-form {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    flex-direction: column-reverse;
     margin-top: 30px;
+  }
+
+  .img-back {
+    flex: 1;
+    align-self: center;
+    margin-right: 20px;
   }
 
   form {
     flex: 0.9;
   }
 }
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 938px) {
+  .back-form {
+    flex-direction: column-reverse;
+  }
   .central-form form {
     width: 400px;
-    margin: 20px;
+    margin-top: 50px;
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 580px) {
   .central-form h2 {
     font-size: 16px;
   }

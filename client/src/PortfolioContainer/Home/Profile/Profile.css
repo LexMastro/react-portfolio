@@ -4,7 +4,7 @@
   text-align: center;
   justify-content: center;
   height: 10%;
-  min-height: fit-content;
+  min-height: 80vh;
 }
 .profile-parent {
   display: flex;
@@ -112,7 +112,7 @@
   .profile-parent {
     flex-direction: column-reverse;
     margin: 40px 0 0 0;
-  } 
+  }
   .profile-options {
     display: flex;
     justify-content: center;
