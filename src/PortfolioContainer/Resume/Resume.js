@@ -69,21 +69,23 @@ const Resume = (props) => {
       duration: { fromDate: "2021", toDate: "2022" },
       description:
         "A Personal Portfolio website to showcase my contact details, projects and designs",
-      subHeading: "Technologies Used: React JS, Bootstrap",
+      subHeading: "Technologies Used: Javascrip, Node.js, React JS, Bootstrap",
     },
     {
-      title: "Personal Portfolio Website",
+      title: "Lettuce Eat",
       duration: { fromDate: "2021", toDate: "2022" },
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+        "A recipe generator using Spoonacular's API for the recipes and Uselessfacts API for streaming quotes.",
+      subHeading:
+        "Technologies Used: Javascript, HTML, CSS, w3schools CSS framework",
     },
     {
-      title: "Personal Portfolio Website",
+      title: "Beauty Board",
       duration: { fromDate: "2021", toDate: "2022" },
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+        "Beauty Board provides a dashboard for users to save and write notes/reviews on their favourite products and share with the community.",
+      subHeading:
+        " JavaScript, CSS3, Bootstrap, Node.js, Express.js, Express Handlebars, Express Sessions, Connect Sessions Sequelize, MySQL, Sequelize, Bcrypt, Dotenv, Cloudinary",
     },
   ];
 
