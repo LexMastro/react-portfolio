@@ -24,12 +24,14 @@ Node.js
 Bootstrap
 
 ## Deployed Site Link
-
+[View Deployed Site](https://lexmastro.github.io/react-portfolio/)
 
 
 ## Examples
 
 ![Image of Site](./public/images/ScreenCapture.png)
+
+** Not sure why this is not showing? Its the right directory from my understanding?
 
 ## License
 
