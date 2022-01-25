@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
@@ -7,6 +7,11 @@ import "./Projects.css";
 import beautyboard from "../../../src/img/Projects/beautyboard.png";
 import weather from "../../../src/img/Projects/weather.png";
 import lettuceEat from "../../../src/img/Projects/LettuceEat.png";
+import textEditor from "../../../src/img/Projects/text-editor.png";
+import workday from "../../../src/img/Projects/workday.png";
+import noteTaker from "../../../src/img/Projects/notetaker.jpg";
+import password from "../../../src/img/Projects/password.png";
+import quiz from "../../../src/img/Projects/quiz.png";
 
 export default function Project(props) {
   let fadeInScreenHandler = (screen) => {
@@ -73,12 +78,12 @@ export default function Project(props) {
         </div>
       </div>
       <div className="card">
-        <img src={weather} className="card-img-top" alt="..." />
+        <img src={textEditor} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">(3) Weather Dashboard</h5>
+          <h5 className="card-title">(4) PWA Text Editor</h5>
 
           <a
-            href="https://lexmastro.github.io/weather-dashboard/"
+            href="https://lexmastro.github.io/PWA-text-editor/"
             className="btn btn-primary"
           >
             View Project
@@ -86,9 +91,9 @@ export default function Project(props) {
         </div>
       </div>
       <div className="card">
-        <img src={weather} className="card-img-top" alt="..." />
+        <img src={noteTaker} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">(4) Note Taker</h5>
+          <h5 className="card-title">(5) Note Taker</h5>
 
           <a
             href="https://alexis-note-taker.herokuapp.com/"
@@ -99,9 +104,9 @@ export default function Project(props) {
         </div>
       </div>
       <div className="card">
-        <img src={weather} className="card-img-top" alt="..." />
+        <img src={password} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">(5) Password Generator</h5>
+          <h5 className="card-title">(6) Password Generator</h5>
 
           <a
             href="https://lexmastro.github.io/password-generator/Develop/"
@@ -112,9 +117,9 @@ export default function Project(props) {
         </div>
       </div>
       <div className="card">
-        <img src={weather} className="card-img-top" alt="..." />
+        <img src={workday} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">(6) Workday Scheduler</h5>
+          <h5 className="card-title">(7) Workday Scheduler</h5>
 
           <a
             href="https://lexmastro.github.io/workday-scheduler/"
@@ -125,9 +130,9 @@ export default function Project(props) {
         </div>
       </div>
       <div className="card">
-        <img src={weather} className="card-img-top" alt="..." />
+        <img src={quiz} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">(7) Coding Quiz</h5>
+          <h5 className="card-title">(8) Coding Quiz</h5>
 
           <a
             href="https://lexmastro.github.io/coding-quiz/"
