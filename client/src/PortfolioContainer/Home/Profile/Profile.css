@@ -101,6 +101,9 @@
     height: 320px;
     width: 320px;
   }
+  .profile-details-role h1 {
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 810px) {
   .profile-picture {
@@ -109,10 +112,11 @@
   .profile-parent {
     flex-direction: column-reverse;
     margin: 40px 0 0 0;
-  }
+  } 
   .profile-options {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 10px;
   }
   .proflie-details {
     margin: 25px 0 0;
@@ -124,6 +128,12 @@
   .profile-details-role {
     text-align: center;
   }
+  .profile-details-role h1 {
+    font-size: 30px;
+  }
+  .header-logo {
+    font-size: 28px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -134,5 +144,8 @@
   }
   .proflie-details {
     width: 95%;
+  }
+  .profile-details-role h1 {
+    font-size: 30px;
   }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Typical from "react-typical";
 import axios from "axios";
 import { toast } from "react-toastify";
@@ -63,6 +63,13 @@ export default function ContactMe(props) {
       console.log(error);
     }
   };
+
+  useEffect(() => {
+    return () => {
+      /* UNSUBSCRIBE THE SUBSCRIPTIONS */
+      fadeInSubscription.unsubscribe();
+    };
+  }, [fadeInSubscription]);
 
   return (
     <div className="main-container fade-in" id={props.id || ""}>
